@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>评论模块</title>
+		<!-- 引入样式、组件脚本 -->
+		<link rel="stylesheet" href="./mycss/comment.css" />
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	<body>
+		<div id="root">
+			<comment></comment>
+		</div>
+	</body>
+
+
+	<script type="module">
+		import commentComp from './myjs/comment-comp.js';
+		Vue.component('comment',commentComp);
+		
+		new Vue({
+			el:'#root'
+		});
+	</script>
+</html>
