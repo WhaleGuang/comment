@@ -1,3 +1,0 @@
-1、主要网页是comment.html，要引用到Vue.js脚本，样式存放在mycss文件里，相关联的组件放在了myjs文件里。
-2、评论人的名字和内容是缓存在localStorage里的，有删除的功能。
-3、index.html是我自己随便乱写的，没有写完功能的东西
